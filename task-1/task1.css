@@ -1,7 +1,11 @@
-body{
-    background: #2d2c62 ;
+:root{
+    background: #e3f0ff;
 }
 
 ul{
     list-style-type: none;
+}
+
+#id{
+    float: right;
 }
