@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,300&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#home-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.header{
+    background-color:#303030;
+    padding: 15px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header .search-button{
+    float: right;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    max-height: 30px;
+}
+
+.header .menu .nav-items{
+    display: inline-block;
+    font-size: large;
+}
+
+.header .menu .nav-items a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    margin-right: 23px;
+    margin-left: 18px;
+}
+
+.logo {
+    width: 100px;
+    height: 50;
+    max-height: 50px;
+    padding-left: 60px;
+}
+
+.nav-items {
+    margin-right: 20px;
+}
+
+.title{
+    z-index: 1;
+    position: fixed;
+    top: 32%;
+    left: 140px;
+    transform: translate(-7%, -5%);
+}
+.title .title-here{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 120px;
+    margin-bottom: 0;
+}
+
+.title .random{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.title .register{
+    height: 50px;
+    width: 257px;
+    background-color: #e8631c;
+    border: 0;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/* Existing CSS rules */
+
+.tour {
+    display: none; /* Hide the tour container initially */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent background */
+    color: white;
+    text-align: center;
+    z-index: 999; /* Ensure the container is on top of other content */
+}
+
+.tour p {
+    margin-top: 50vh; /* Adjust the vertical alignment */
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Additional styles as needed */
