@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
 body {
   text-align: center;
   background-color: #283149;
@@ -7,36 +10,48 @@ h1 {
   font-size: 5rem;
   color: #DBEDF3;
   text-shadow: 3px 0 #DA0463;
-
+  font-family: 'Raleway', sans-serif;
 }
-
-.button .w {
+.w {
   cursor:pointer;
-  background-color: #4CAF50;
+  background-color: #F7CAC9;
+  box-shadow: 0 3px 6px #DA0463;
 }
 
 .a {
   cursor:pointer;
+  background-color: #FFCCBC;
+  box-shadow: 0 3px 6px #DB0463;
 }
 
 .s {
   cursor:pointer;
+  background-color: #FFE7BC;
+  box-shadow: 0 3px 6px #DA0463;
 }
 
 .d {
   cursor:pointer;
+  background-color: #FFF3BC;
+  box-shadow: 0 3px 6px #DA0463;
 }
 
 .j {
   cursor:pointer;
+  background-color: #FFE3C9;
+  box-shadow: 0 3px 6px #DA0463;
 }
 
 .k {
   cursor:pointer;
+  background-color: #FFDBCB;
+  box-shadow: 0 3px 6px #DA0463;
 }
 
 .l {
   cursor:pointer;
+  background-color: #FFB7C9;
+  box-shadow: 0 3px 6px #DA0463;
 }
 
 .set {
@@ -71,4 +86,5 @@ h1 {
   height: 150px;
   text-align: center;
   margin: 10px;
+  font-family: 'Playfair Display', serif;
 }
