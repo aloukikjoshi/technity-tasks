@@ -505,3 +505,12 @@ header{
     border-radius: 2px;
 }
 
+.footer{
+    height: 40vh;
+    background-color: #303030;
+}
+
+.footer .contact{
+    width: 40%;
+}
+
