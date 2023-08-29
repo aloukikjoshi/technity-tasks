@@ -403,3 +403,105 @@ header{
 .stats .stats-container .margins .extra{
     width: 27rem;
 }
+
+.filter {
+    position: relative; /* Make sure the ::before pseudo-element is positioned relative to this container */
+    height: 170vh;
+    width: 100%;
+    background: url('./Used images/4.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    justify-content: center;
+}
+
+.filter::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(232, 99, 28, 0.5);
+    opacity: 0.5;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter .random-once-again {
+    padding-top: 9em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.filter .big-name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    padding-top: 2.25em;
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subscribe {
+    height: 60vh;
+    background-color: #e8631c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe .heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.subscribe .return {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-top: 1.25em;
+}
+
+.subscribe .input-container {
+    display: flex;
+    align-items: center;
+    padding-top: 3.5em;
+    width: 65em;
+}
+
+.subscribe .email {
+    height: 45px;
+    border: #e3f0ff;
+    width: 256px;
+    flex: 1;
+    padding: 5px;
+    border: none;
+    
+    font-size: 2rem;
+}
+
+.subscribe .subs {
+    height: 45px;
+    width: 150px;
+    background-color:#303030;
+    color: #ffffff;
+    border: none;
+    margin: 0%;
+    font-size: 15px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
