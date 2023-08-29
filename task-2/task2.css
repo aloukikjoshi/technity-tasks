@@ -405,7 +405,7 @@ header{
 }
 
 .filter {
-    position: relative; /* Make sure the ::before pseudo-element is positioned relative to this container */
+    position: relative;
     height: 170vh;
     width: 100%;
     background: url('./Used images/4.png');
@@ -505,12 +505,26 @@ header{
     border-radius: 2px;
 }
 
-.footer{
+.footer {
     height: 40vh;
     background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #ffffff;
 }
 
-.footer .contact{
+.footer .contact {
     width: 40%;
+}
+
+.footer .about {
+    width: 20%;
+    float: left;
+}
+
+.footer .about:not(:first-child) {
+    float: right;
 }
 
