@@ -85,12 +85,14 @@ header{
     font-size: 9.5rem;
     font-family: 'Oswald', sans-serif;
     color: #ffffff;
+    font-weight: 500;
 }
 
 .title .random{
-    font-size: 3.25rem;
+    font-size: 2.65rem;
     color: #ffffff;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0.5em;
 }
 
 .title .register{
@@ -102,7 +104,302 @@ header{
     border: 0;
     border-radius: 3px;
     margin-top: 1.25em;
-    font-size: 2.75rem;
+    font-size: 3rem;
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
+}
+
+.tour{
+    background-color: #e8631c;
+    height:110vh;
+}
+
+.tour .dance-tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.75em;
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.tour .random-again{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 3em;
+}
+
+.image-row > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour .image-row img {
+    height: 45vh;
+    width: 35rem;
+}
+
+.tour .image-row .text-caption {
+    text-align: center;
+    background-color: #303030;
+    height: 7.5em;
+    font-size: 2rem;
+    color: #ffffff;
+    width: 35rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tour .image-row .continent{
+    font-size: 2.75rem;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 0.70em;
+    padding-bottom: 0.20em;
+}
+
+.price{
+    background-color: #303030;
+    height: 105vh;
+}
+
+.price .courses{
+    background-color:#e8631c;
+    border-radius: 7px;
+    height: 55vh;
+    width: 35rem;
+}
+
+.price .pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.75em;
+    font-size: 6rem;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.price .random-reload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.price .image-row .courses .same-image{
+    padding-top: 3.5rem;
+}
+
+.price .image-row .level{
+    font-size: 2.75rem;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 0.70em;
+    padding-bottom: 0.20em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.price .image-row .courses .text-caption{
+    padding-top: 1rem;
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price .image-row .dollar{
+    margin-top: 2em;
+    color: #ffffff;
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    height: 5.5rem;
+    width: 29.5rem;
+}
+
+.amazing {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    height: 95vh;
+    background-color: #e8631c;
+}
+
+.amazing .amazing-black {
+    height: 100%;
+    width: 50%;
+}
+
+.amazing .text-column {
+    width: 50%;
+    padding-left: 5rem;
+    box-sizing: border-box;
+    color: #ffffff; 
+}
+
+.amazing .text-column p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.amazing .text-column .amazing-dance{
+    font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    font-weight: 600;
+    padding-bottom: 0.4em;
+}
+
+.amazing .text-column .random-4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 2em;
+}
+
+.amazing .text-column .read{
+    background-color: #303030;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    height: 6rem;
+    width: 32rem;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.best {
+    background-color: #e8631c;
+    height: 95vh;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    z-index: -1;
+}
+
+.best .best-white {
+    width: 60vw;
+    height: 95vh;
+    z-index: 0;
+    color: #e8631c;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%);
+}
+
+.best .text-column {
+    width: 50%;
+    height: 95vh;
+    z-index: 1;
+    padding-top: 18.5em;
+    padding-left: 7em;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #e8631c;
+}
+
+.best .text-column .best-dance{
+    font-family: 'Oswald', sans-serif;
+    font-size: 7rem;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+
+.best .text-column .random-5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 2.25em;
+}
+
+.best .text-column .read-again{
+    background-color: #303030;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    height: 6rem;
+    width: 32rem;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.stats {
+    background-color: #303030;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.stats .statistics {
+    text-align: center;
+    padding-top: -20%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 8rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.stats .random-return {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.25rem;
+    padding-top: 0.5em;
+}
+
+.stats .stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8em;
+}
+
+.stats .stats-container > div {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.stats .stats-container p:last-child {
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+.stats .stats-container .margins .number{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.stats .stats-container .margins{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.stats .stats-container .margins .extra{
+    width: 27rem;
 }
