@@ -506,25 +506,64 @@ header{
 }
 
 .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
     height: 40vh;
     background-color: #303030;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+}
+
+.footer .about,
+.footer .services,
+.footer .other {
+    float: right;
+    width: 25%;
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer .about{
+    margin-top: 3em;
+    width: 20%;
+}
+
+.footer .head{
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     color: #ffffff;
 }
 
-.footer .contact {
+.footer .contact{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2.5em;
     width: 40%;
+    font-size: 2rem;
 }
 
-.footer .about {
-    width: 20%;
-    float: left;
+.footer .other{
+    margin-top: 3em;
+    width: 12.5%;
 }
 
-.footer .about:not(:first-child) {
-    float: right;
+.footer .services{
+    margin-top: 3em;
+    width: 18.5%;
 }
 
+.footer .contact .image-space{
+    margin-right: 0.5em;
+}
