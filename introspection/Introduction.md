@@ -12,4 +12,4 @@ I am Aloukik Joshi, currently enrolled in the B.Tech program for Computer Scienc
  organised by Microsoft and with my team in the [Filpkart GRID 5.O](https://unstop.com/certificate-preview/87ea5cd6-c146-4fc4-884c-3e04dcb14b3d?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=wow-look-at-your-certificate-flipkart-grid-50-software-development-track)
 * Recently, I participated in [Tata Crucible Quiz](https://unstop.com/certificate-preview/691643c6-2d10-4a9e-87ca-a4f5dbe78f98?utm_campaign=site-emails), which shows my interest in the field of management also.
 * Currently I'm working as the Chair at IEEE Student Branch of our Campus and looking forward to join Technity again.
-* You can find more about me and my achievements on my [LinkedIn](https://www.linkedin.com/in/aloukik-joshi-a50214216).
+* You can find more about me and my achievements on my [LinkedIn](https://www.linkedin.com/in/aloukik-joshi-a50214216), where have have uploaded a lot of certificates related to the the field of Computer Science.
