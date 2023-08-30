@@ -1,4 +1,4 @@
-# Contributing back to the Club
+#  🌱Contributing back to the Club🫱🏽‍🫲🏼
 
 Enthusiastically, I am driven to contribute wholeheartedly to the club's continuous development and exponential growth. My eagerness knows no bounds when it comes to actively participating in the diverse spectrum of events and activities orchestrated by the club. Avenues are abundant—I can adeptly orchestrate workshops and seminars independently or collaboratively within a group dynamic.
 
