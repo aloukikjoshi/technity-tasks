@@ -241,6 +241,9 @@ header{
     border-radius: 5px;
     height: 5.5rem;
     width: 29.5rem;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 .amazing {
