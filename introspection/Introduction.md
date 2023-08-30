@@ -11,3 +11,4 @@ I am Aloukik Joshi, currently enrolled in the B.Tech program for Computer Scienc
 * External participations include the ["Fastest Coder Hackthon"](https://github.com/aloukikjoshi/technity-tasks/files/12475870/Aloukik_FCH.pdf)
  organised by Microsoft.
 * Currently I'm working as the Chair at IEEE Student Branch of our Campus and looking forward to join Technity again.
+* You can find more about me and my achievements on my [LinkedIn](https://www.linkedin.com/in/aloukik-joshi-a50214216).
