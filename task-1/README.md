@@ -1,3 +1,3 @@
-# Brief on my approach
+## 📝 My Approach to the First Task
 
-Being the first task it was the one which was the easiest. I prefer doing tasks by in my local setup, so I  cloned the repository and coded it in VS Code. I used the fontawesome website for downloading the icons of varioous social media platforms. I tried some different background colours also for the landing page.
+As the inaugural task, it naturally offered a straightforward entry point. Opting for my preferred method, I initiated the task within my local setup. After cloning the repository, I engaged with the coding process using VS Code as my platform of choice. For visual enhancements, I utilized the Font Awesome website to procure a diverse array of icons representing various social media platforms. Notably, I experimented with different background colors to create an engaging landing page.
