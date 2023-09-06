@@ -3,6 +3,7 @@ import requests
 from privateapi import get_key
 from privateapi import get_token
 import csv
+import json
 
 apiKey = get_key()
 token = get_token()
@@ -18,6 +19,14 @@ def getMovie(message):
 
     if response.status_code == 200:                                                         #Here 200 is the Success Code
         movie.reply_to(message, response.text)
+        
+        movie_data=json.loads(response.text)
+        
+        csv_file='./store.csv'
+        with open(csv_file, mode='a',newline='\r\n') as file:
+            writer = csv.writer(file)
+    
+            writer.writerow(response.text)
     else:
         movie.reply_to(message, 'Sorry, unable to get the movie you are looking for.')
 
