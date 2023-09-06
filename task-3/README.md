@@ -4,4 +4,6 @@ For the initial task involving JavaScript, I opted for a single-file solution. W
 
 ## Result
 
-![Screenshot (168)](https://github.com/aloukikjoshi/technity-tasks/assets/119406434/0ae45f13-0d8a-40be-ad14-42071a8d515b)
+![Screenshot (168)](https://github.com/aloukikjoshi/technity-tasks/assets/119406434/2daeed02-830c-4fd4-84f3-cc83ba04969e)
+
+
