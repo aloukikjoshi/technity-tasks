@@ -4,4 +4,5 @@ As the inaugural task, it naturally offered a straightforward entry point. Optin
 
 ## Result
 
-![Screenshot (169)](https://github.com/aloukikjoshi/technity-tasks/assets/119406434/2b064fd6-9d7c-41cc-85e4-c4737320ec9b)
+![Screenshot (169)](https://github.com/aloukikjoshi/technity-tasks/assets/119406434/261b1488-131b-484c-b75e-7f4fcd756adf)
+
