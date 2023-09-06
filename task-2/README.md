@@ -4,4 +4,4 @@ Undertaking the second task, which undoubtedly stands as the most extensive of t
 
 Worth noting is the fact that I maintained a purist approach throughout, relying solely on the resources provided and refraining from incorporating external elements. This dedication resulted in the creation of roughly 170 lines of HTML code and approximately 570 lines of CSS code. The meticulous utilization of diverse classes facilitated the establishment of distinct CSS properties, contributing to the overall complexity and effectiveness of the task.
 
-## ❗The GIF is inside the same folder of task-2 ❗
+### ❗The GIF is inside the same folder of task-2 ❗
