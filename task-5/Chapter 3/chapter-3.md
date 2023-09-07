@@ -26,4 +26,11 @@ Local scopes are created for each function call, and their number depends on how
 
 11) It attempts to import a Python module named "areallyourpetsnamederic."
 
-12) 
+12) import spam
+    spam.bacon()
+
+13) Implementing exception handling (try-catch blocks).
+
+14) Certainly, let's make it even simpler:-
+Try: Put risky code here.
+Except: Specify what to do if things go wrong
