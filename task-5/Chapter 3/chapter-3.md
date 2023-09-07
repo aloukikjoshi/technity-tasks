@@ -33,4 +33,4 @@ Local scopes are created for each function call, and their number depends on how
 
 14) Certainly, let's make it even simpler:-
 Try: Put risky code here.
-Except: Specify what to do if things go wrong
+Except: Specify what to do if things go wrong.
